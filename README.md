@@ -7,22 +7,18 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/01c06647a2b62bec8b91/test_coverage)](https://codeclimate.com/github/GroceriStar/food-static-files-generator/test_coverage)
 
 - [ ] We need to update readme here!
-- [x] ESLint configuration finish
-- [x] Husky, Lint-Staged
-- [x] Rollup fixes in configuration
-- [x] ESLint warnings
-- [x] Complete ES6 migration and test how it works
 - [ ] plugin should generate files outside
-- [ ] replace configGenerator with callbacks because all methods will be passed from the outside
+- [x] replace configGenerator with callbacks because all methods will be passed from the outside
+- [ ] husky, lint-staged should work again
 
-we need to create a plan, about what and how this new version of generator
-will work and where we'll save files, etc.... https://github.com/GroceriStar/food-static-files-generator/issues/209
+- [x] Remove Debug/Output/Play folder and replace them with tests suits
+<!--prettier --write \"src/**/*.{js,jsx,ts,tsx,scss,less}\"-->
 
 ## Quick Start
 
 Several quick start options are available:
 
-- Clone the repo: `git clone https://github.com/GroceriStar/static-data-generator.git`
+- Clone the repo: `git clone https://github.com/GroceriStar/food-static-files-generator.git`
 - Install with npm: `npm install @groceristar/static-data-generator`
 - Install with yarn: `yarn add @groceristar/static-data-generator`
 

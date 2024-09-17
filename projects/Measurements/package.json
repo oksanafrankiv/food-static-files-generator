@@ -1,0 +1,24 @@
+{
+  "name": "Measurements",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@groceristar/sd-wrapper": "^4.14.3",
+    "@groceristar/static-data-generator": "^1.0.7",
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.0",
+    "path": "^0.12.7",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "27.5.1"
+  }
+}
